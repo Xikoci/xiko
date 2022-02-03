@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-family: "Open Sans", sans-serif;
+    background: #5e5454;
+    color: azure;
+    background: url(img/IMG_3277.JPG);
+    background-size: cover;
+    background-position: center center;
+  }
+.top-content{
+    min-width: 100%;
+    height: 200vh;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+      
+  }
+
+  .container{
+    width: 90%;
+    position: relative;
+ 
+    
+  }
+
+  .bio{
+    width: 400px;
+    height: 450px;
+    border: 2px solid grey;
+    position: absolute;
+    color: rgb(65, 100, 255);
+    top: 15%;
+    right: 05%;
+    background: #5e5454;
+    
+    
+  
+    
+
+ 
+    
+
+  
+
+  }
+
+  .bio h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(15, 15, 15);
+    
+
+    
+    
+
+    
+    
+  }
+  .bio h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    color: #000000;
+    
+
+
+  }
+
+  .glen-bio{
+    width: 50%;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   margin: 05% auto;
+   padding-left: 100px;
+   color: #221a1a;
+  
+   
+   
+  }
+
+  .read-more{
+    display:inline-block;
+    color: white;
+    text-decoration: uppercase;
+    font-size: 20px;
+    padding: 20px 30px ;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgb(245, 142, 142);
+    border-radius: 10px;
+    margin: 50px auto;
+    font-weight: lighter;
+
+  }
+
+  .read-more:hover{
+    color: black;
+    background: white;
+    transform: translateY(3px);
+
+  }
+  .glen-bio h1{
+    padding: 50px  0;
+    color: #221a1a;
+
+  }
+
+  .about-blog{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    margin-top: 100px;
+    background: #221a1a;
+    width: 100%;
+    min-height: 500px;
+    padding-right: 100px;
+    padding-left: 40px;
+    padding-top: 40px;
+  
+
+  }
+
+  .about-blog h1{
+    margin: 30px auto;
+    
+  }
+
+  
+
+.img-fluid{
+    width: 100%;
+    height: 300px;
+ 
+  
+}  
+
+.socials{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 10px;
+  
+}
+
+.socials a i{
+  color: greenyellow;
+  padding: 10px 10px;
+  -webkit-tap-highlight-color:transparent;
+}
+
+.top-content img{
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
